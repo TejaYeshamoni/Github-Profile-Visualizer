@@ -1,0 +1,130 @@
+.color-1 {
+  background-color: #c026d329;
+  color: #e879f9;
+}
+
+.color-2 {
+  background-color: #0284c729;
+  color: #38bdf8;
+}
+
+.color-3 {
+  background-color: #22c55e29;
+  color: #4ade80;
+}
+
+.color-4 {
+  background-color: #db277729;
+  color: #f472b6;
+}
+
+.color-5 {
+  background-color: #f59e0b29;
+  color: #fbbf24;
+}
+
+.route-link {
+  text-decoration: none;
+}
+
+.repos-item-link {
+  margin-bottom: 25px;
+}
+
+.repos-item-cont {
+  background-color: #ffffff0f;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.repos-item-h1 {
+  color: #3b82f6;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+}
+
+.repos-item-p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.languages-cont {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.languages {
+  font-size: 12px;
+  line-height: 16px;
+  width: auto;
+  height: 24px;
+  padding: 4px 12px 4px 12px;
+  gap: 0px;
+  border-radius: 25px;
+  margin: 10px 15px 10px 0px;
+}
+
+.repos-item-icon-cont {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.repos-icon-cont {
+  display: flex;
+  align-items: center;
+}
+
+.repos-icon-p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.git-icon {
+  color: #94a3b8;
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .repos-item-h1 {
+    font-size: 24px;
+  }
+  .repos-item-p {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .languages {
+    font-size: 16px;
+    height: 32px;
+    padding: 4px 12px 4px 12px;
+    line-height: 24px;
+  }
+  .repos-item-icon-cont {
+    margin-top: 25px;
+  }
+  .repos-item-cont {
+    padding: 20px;
+    margin-top: 10px;
+  }
+}

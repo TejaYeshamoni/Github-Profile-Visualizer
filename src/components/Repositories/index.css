@@ -1,0 +1,187 @@
+.repo-bg-cont {
+  background-color: #0f172a;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.repo-cont {
+  width: 89%;
+  align-self: center;
+}
+
+.repo-except {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.repo-header {
+  width: 89%;
+}
+
+.repo-h1 {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.repos-ul-cont {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.failure-view {
+  width: 90%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.empty-view {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.no-data-view {
+  width: 100%;
+  min-height: 95vh;
+  height: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-data-btn {
+  background-color: #ffffff;
+  width: 105px;
+  height: 32px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  color: #414038;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.no-data-p {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18.24px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.no-data-h1 {
+  padding-bottom: 0px;
+}
+
+.no-data-img {
+  width: 80%;
+}
+
+@media screen and (min-width: 359px) {
+  .no-data-view {
+    width: 90%;
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .no-data-img {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .failure-view {
+    width: 70%;
+  }
+  .empty-view {
+    width: 80%;
+  }
+  .no-data-img {
+    width: 60%;
+  }
+  .no-data-view {
+    width: 80%;
+    height: 90vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view {
+    width: 75%;
+    height: 100vh;
+  }
+  .empty-view {
+    width: 70%;
+    height: 100vh;
+  }
+  .empty-p {
+    font-size: 25px;
+  }
+  .no-data-p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .no-data-btn {
+    width: 135px;
+    height: 48px;
+    padding: 8px 24px 8px 24px;
+    font-size: 16px;
+  }
+  .no-data-img {
+    width: 50%;
+  }
+  .no-data-view {
+    width: 70%;
+    height: 100vh;
+  }
+  .repo-cont {
+    width: 85%;
+  }
+  .repo-header {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .failure-view {
+    width: 50%;
+    height: 110vh;
+  }
+  .empty-view {
+    width: 50%;
+    height: 110vh;
+  }
+  .no-data-view {
+    width: 50%;
+    height: 110vh;
+  }
+}

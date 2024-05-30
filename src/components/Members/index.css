@@ -1,0 +1,42 @@
+.members-img {
+  width: 32px;
+  height: 32px;
+  gap: 0px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+
+.members-count-cont {
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+  gap: 0px;
+  border-radius: 24px;
+  color: #0f172a;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .img-5 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .members-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 13px;
+  }
+  .members-count-cont {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}

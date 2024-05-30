@@ -1,0 +1,77 @@
+.analysis-cont {
+  width: 90%;
+  align-self: center;
+}
+
+.analysis-header {
+  width: 90% !important;
+}
+
+.analysis-success-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.analysis-h1 {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.piechart-analysis-cont {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.analysis-h1-extra {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.commits-per-lang-cont {
+  width: 100%;
+}
+
+.commit-history-h1 {
+  text-align: center !important;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.commit-history-cont {
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .analysis-cont {
+    width: 85%;
+  }
+  .analysis-header {
+    width: 85% !important;
+  }
+  .analysis-h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .analysis-h1-extra {
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+  .piechart-analysis-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .commits-per-repos-cont {
+    align-items: flex-start;
+    width: 90%;
+    align-self: center;
+  }
+}

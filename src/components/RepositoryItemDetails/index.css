@@ -1,0 +1,195 @@
+.repos-details-bg-cont {
+  background-color: #0f172a;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.repos-details-header {
+  width: 90%;
+  align-self: center;
+}
+
+.repos-details-cont {
+  width: 90%;
+  align-self: center;
+}
+
+.repos-item-main-h1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.commit-total-cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.commit-cont {
+  width: 161px;
+  height: 68px;
+  gap: 0px;
+  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.commit-p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.commit-value {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.repos-details-h1 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.repos-details-p {
+  color: #cbd5e1;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  padding-top: 17px;
+}
+
+.members-ul-cont {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.cell-icon-p {
+  color: #cbd5e1 !important;
+  font-size: 16px !important;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  padding-top: 17px;
+}
+
+.responsive-cont {
+  margin-top: 5px;
+  width: 100%;
+  min-height: 300px !important;
+  height: 300px;
+}
+
+.legend-ul-cont {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.legend-li-cont {
+  margin-bottom: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-icon {
+  width: '16px' !important;
+  height: '16px' !important;
+}
+
+.star-btn {
+  background: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .repos-details-cont {
+    width: 80%;
+  }
+  .repos-details-header {
+    width: 80%;
+  }
+  .responsive-cont {
+    width: 400px !important;
+    height: 300px !important;
+    margin-top: 50px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .repos-details-cont {
+    margin-top: 40px;
+  }
+  .commit-total-cont {
+    flex-direction: row;
+    align-items: center;
+  }
+  .commit-cont {
+    margin-right: 25px;
+  }
+  .repos-details-card {
+    padding: 40px;
+    padding-top: 50px;
+  }
+
+  .legend-li-cont {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .repos-details-h1 {
+    font-size: 24px;
+  }
+  .members-ul-cont {
+    margin-top: 20px;
+  }
+  .legend-icon {
+    width: '16px' !important;
+    height: '16px' !important;
+  }
+  .responsive-cont {
+    min-width: 400px !important;
+    width: 100% !important;
+    max-width: 550px !important;
+    height: 500px !important;
+    flex-grow: 1;
+  }
+  .repos-item-main-h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .repos-details-card {
+    padding: 50px;
+    padding-top: 55px;
+  }
+}

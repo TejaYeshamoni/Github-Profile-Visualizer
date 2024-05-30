@@ -54,7 +54,7 @@ class Home extends Component {
     const {username} = this.state
     Cookies.set('username', username)
 
-    const apiKey = ''
+    const apiKey = process.env.REACT_APP_GIT_KEY
 
     const url = `https://apis2.ccbp.in/gpv/profile-details/${username}?api_key=${apiKey}`
 

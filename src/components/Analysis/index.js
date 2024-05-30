@@ -45,7 +45,7 @@ class Analysis extends Component {
     if (username === undefined) {
       this.setState({apiStatus: apiStatusConstants.noData})
     } else {
-      const apiKey = ''
+      const apiKey = process.env.REACT_APP_GIT_KEY
 
       const url = `https://apis2.ccbp.in/gpv/profile-summary/${username}?api_key=${apiKey}`
 

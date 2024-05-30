@@ -55,7 +55,7 @@ class RepositoryItemDetails extends Component {
 
     const username = Cookies.get('username')
 
-    const apiKey = ''
+    const apiKey = process.env.REACT_APP_GIT_KEY
 
     const url = `https://apis2.ccbp.in/gpv/specific-repo/${username}/${repoName}?api_key=${apiKey}`
 

@@ -9,9 +9,10 @@
 }
 
 .nav-h1 {
-  color: #f8fafc;
-  font-size: 16px;
-  font-weight: normal;
+  font-family: 'roboto';
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 32px;
   text-align: left;
 }
 
@@ -22,6 +23,8 @@
   background: transparent;
   color: #ffffff;
   font-size: 21px;
+  font-family: 'roboto';
+  font-weight: 700;
 }
 
 .nav-link-cont {
